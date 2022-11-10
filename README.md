@@ -16,3 +16,4 @@ Needed attributes
   swim speed
   fly speed
   
+https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java 
