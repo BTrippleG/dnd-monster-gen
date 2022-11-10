@@ -1,3 +1,18 @@
 # DnDMonsterGen
-currently testing pull and push 
-test 2
+Needed attributes
+  Strength
+  Dexterity 
+  Constitution
+  Intelligents
+  Wisdom
+  Charasma
+  Perception
+  
+  
+  Size
+  Armor class
+  hit points
+  walk speed
+  swim speed
+  fly speed
+  
