@@ -19,3 +19,6 @@ Needed attributes
 https://stackoverflow.com/questions/2591098/how-to-parse-json-in-java 
 
 https://www.tutorialspoint.com/how-can-we-read-a-json-file-in-java
+
+
+API https://open5e.com/
