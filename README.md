@@ -22,3 +22,6 @@ https://www.tutorialspoint.com/how-can-we-read-a-json-file-in-java
 
 
 API https://open5e.com/
+
+
+LINK TO GOOGLE DOC FILES - https://drive.google.com/drive/folders/1I4ScYgGWdoMajajJV1MWzfTsJVx6v8B4?usp=sharing
