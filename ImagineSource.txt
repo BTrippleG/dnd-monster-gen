@@ -1,0 +1,20 @@
+Aberration
+Beast
+Celestial - https://pixabay.com/vectors/angel-the-archangel-character-halo-2615465/ - Celestial.png
+Construct -https://commons.wikimedia.org/wiki/File:DnD_Stone_Elemental.png
+Dragon - https://pixabay.com/vectors/dragon-silhouette-black-mythology-1578289/ 
+Elemental
+Fey - https://pixabay.com/vectors/creature-faery-fairy-female-2789683/
+Fiend - https://pixabay.com/vectors/angel-demon-fallen-lucifer-bad-7162229/
+Giant - https://pixabay.com/illustrations/silhouette-troll-ork-fighter-3331615/ - https://pixabay.com/vectors/evolution-walking-charles-darwin-297234/
+Humanoid - https://pixabay.com/illustrations/fantasy-female-fantasy-character-1512087/
+Monstrosity
+Ooze - https://pixabay.com/illustrations/creature-monster-fantasy-cosmic-6772821/ 
+Plant
+Undead - https://pixabay.com/vectors/halloween-zombie-silhouette-undead-5642695/
+
+
+Dice - https://commons.wikimedia.org/wiki/File:Purple_d20.png - Modified
+	- https://pixabay.com/vectors/dice-geometry-geometric-design-7168309/
+
+Menu - Made
