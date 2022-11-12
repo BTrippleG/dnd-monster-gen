@@ -1,0 +1,45 @@
+package application;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.net.URL;
+import java.util.Scanner;
+
+import org.json.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
+public class JSONtoString {
+
+	public static void main(String[] args) throws IOException {
+		URL url = new URL("https://api.open5e.com/monsters/?format=json&search=aatxe");
+		Scanner scanner = null;
+		scanner = new Scanner(url.openStream());
+
+		String rawData = scanner.nextLine();
+		System.out.println(rawData);
+
+		JSONParser parser = new JSONParser();
+		try {
+			Object obj = parser.parse(new FileReader("Monsters.json"));// change to url all info is able to work
+			JSONObject jsonObject = (JSONObject) obj;
+			// JSONObject resultsObj = (JSONObject) jsonObject.get("results"); - cant get
+			// this to work as we need to 'bypass' the results to get the name
+			String name = (String) jsonObject.get("name");
+			String size = (String) jsonObject.get("size");
+			JSONArray legAction = (JSONArray) jsonObject.get("legendary_actions");// commented out
+			System.out.println("Name: " + name);
+			System.out.println("Size: " + size);
+
+			/*
+			 * System.out.println("legAction:"); Iterator iterator = legAction.iterator();
+			 * while (iterator.hasNext()) { System.out.println(iterator.next()); }
+			 */
+		} catch (Exception e) {
+			// System.out.println("name not found");
+			e.printStackTrace();
+		}
+
+	}
+
+}
