@@ -18,6 +18,26 @@ public class MonsterParser {
 	public MonsterParser() {
 
 	}
+	
+	 //public <T> T fromJson(String json, Class<T> classOfT)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public void jsonparse() throws FileNotFoundException, IOException, ParseException {
 		Object obj = new JSONParser().parse(new FileReader("\\DnDMonster\\RelatedFiles\\Monsters.json"));

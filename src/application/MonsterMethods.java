@@ -32,15 +32,11 @@ public class MonsterMethods {
 		return url;
 	}
 
-	/*
-	 * public void randomNum() {
-	 * 
-	 *  this.randomMonNum = random.nextInt(1470); 
-	 * 
-	 * // could use this class for the dice if we pass an int 
-	 * 
-	 * }
-	 */
+	public int randomNum(int numCount) {
+		int randomNum = random.nextInt(numCount + 1);
+
+		return randomNum;
+	}
 
 	public String monsSlug() throws IOException {
 
