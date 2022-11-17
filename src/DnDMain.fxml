@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0" prefWidth="600.0" style="-fx-background-color: #313131;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="52.0" prefWidth="600.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="55.0" prefWidth="100.0">
+               <children>
+                  <Label text="Strength" textAlignment="CENTER" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Dexterity" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Constitution" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Intelligents" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Wisdom" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label text="Charisma" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label text="--" textAlignment="CENTER" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Rectangle arcWidth="5.0" fill="#313131" height="75.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Rectangle fill="#9d0a0e" height="11.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Line endX="404.0" layoutX="155.0" layoutY="147.0" opacity="0.51" startX="-100.0" stroke="#9d0a0e" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeWidth="4.0" />
+      <Line endX="350.0" layoutX="250.0" layoutY="250.0" opacity="0.51" startX="-250.0" stroke="#9d0a0e" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeWidth="4.0" />
+      <VBox alignment="TOP_CENTER" layoutX="168.0" layoutY="145.0" prefHeight="93.0" prefWidth="279.0">
+         <children>
+            <HBox fx:id="name" alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="52.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Desktop/DnD_Images_Game/Monsters/Celeste.png" />
+                     </image>
+                  </ImageView>
+                  <Label prefHeight="43.0" prefWidth="188.0" text="&quot;name&quot;:" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="TOP_CENTER" prefHeight="65.0" prefWidth="238.0">
+               <children>
+                  <Label fx:id="size" prefHeight="43.0" prefWidth="188.0" text="&quot;size&quot;:" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="type" prefHeight="43.0" prefWidth="188.0" text="&quot;type&quot;:" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="43.0" prefWidth="188.0" text="," textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="alignment" prefHeight="43.0" prefWidth="188.0" text="&quot;alignment&quot;:" textFill="#e7e7d8">
+                     <font>
+                        <Font name="Constantia Italic" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="75.0" prefWidth="600.0">
+         <children>
+            <Button accessibleRole="MENU_BUTTON" alignment="CENTER" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="67.0" prefWidth="67.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="67.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Desktop/DnD_Images_Game/Icons/Menu.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Region prefHeight="200.0" prefWidth="200.0" />
+            <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Text fill="#e7e7d8" strokeType="OUTSIDE" strokeWidth="0.0" text="Dungeons and Dragons">
+                     <font>
+                        <Font name="Algerian" size="32.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#e7e7d8" strokeType="OUTSIDE" strokeWidth="0.0" text="Monster Roller">
+                     <font>
+                        <Font name="Algerian" size="32.0" />
+                     </font>
+                  </Text>
+               </children>
+            </VBox>
+            <Region prefHeight="200.0" prefWidth="200.0" />
+            <Button fx:id="Button" accessibleRole="MENU_BUTTON" contentDisplay="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="67.0" prefWidth="67.0" style="-fx-background-color: transparent;">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+               <graphic>
+                  <ImageView fitHeight="75.0" fitWidth="75.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../Desktop/DnD_Images_Game/Icons/Dice20.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="DEFAULT" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane layoutY="252.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: transparent;">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <Rectangle arcWidth="5.0" fill="#313131" height="400.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+                  <VBox layoutX="77.0" layoutY="7.0" prefHeight="164.0" prefWidth="447.0">
+                     <children>
+                        <HBox prefHeight="40.0" prefWidth="447.0">
+                           <children>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Armor Class:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Senses:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="40.0" prefWidth="447.0">
+                           <children>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Hit Points:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Languages:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="40.0" prefWidth="447.0">
+                           <children>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Speed:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="Challenge:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="40.0" prefWidth="447.0">
+                           <children>
+                              <Label prefHeight="40.0" prefWidth="206.0" text="Skills:" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="209.0" prefWidth="430.0" text="--" textFill="#e7e7d8">
+                                 <font>
+                                    <Font name="Constantia Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <Line endX="585.0" endY="173.0" layoutX="-123.0" layoutY="-2.0" opacity="0.51" startX="262.0" startY="173.0" stroke="#9d0a0e" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeWidth="4.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Rectangle fill="#9d0a0e" height="11.0" layoutY="243.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Rectangle fill="#9d0a0e" height="18.0" layoutY="637.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+   </children>
+</AnchorPane>
